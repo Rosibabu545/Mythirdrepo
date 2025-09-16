@@ -1,0 +1,18 @@
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+num = int(input("Enter a number: "))
+print(f"The factorial of {num} is {factorial(num)}.")
+3. Program to Reverse a String
+Python
+
+Copy code
+string = input("Enter a string: ")
+reversed_string = string[::-1]
+print(f"The reversed string is: {reversed_string}")
+These programs are beginner-friendly and cover basic concepts like conditionals, recursion, and string manipulation. Let me know if you'd like more examples or explanations! 😊
+
+
